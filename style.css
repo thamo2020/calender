@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Quicksand:wght@300;400;500;600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background: #f1fbff;
+}
+.calender {
+    padding: 20px 40px;
+}
+.months-container {
+    justify-content: center;
+    gap: 40px;
+}
+.calendar .months-container .month-container {
+    background: #fff ;
+    padding: 20px;
+    min-width: 280px;
+    box-shadow: 15px 15px 48px rgba(0, 0, 0, 15) ;
+}
